@@ -3,13 +3,17 @@ import { Canvas } from "@react-three/fiber";
 import { OrbitControls, useGLTF } from "@react-three/drei";
 
 const GlobeModel = () => {
-  const { scene } = useGLTF("/models/globe.glb");
+  // Use import.meta.env.BASE_URL to handle dynamic base paths
+  const basePath = import.meta.env.BASE_URL || "/";
+  const { scene } = useGLTF(`${basePath}models/globe.glb`);
+
   scene.scale.set(5, 5, 5);
   scene.traverse((child) => {
     if (child.isMesh) {
-      child.material.color.set("#07114484"); 
+      child.material.color.set("#07114484");
     }
   });
+
   return <primitive object={scene} />;
 };
 
