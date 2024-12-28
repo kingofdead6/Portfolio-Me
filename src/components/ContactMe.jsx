@@ -7,7 +7,7 @@ const ContactMe = () => {
   const socialLinks = [
     { name: "GitHub", url: "https://github.com/kingofdead6", img: github }, 
     { name: "LinkedIn", url: "https://www.linkedin.com/feed/", img: linkedin },
-    { name: "Twitter", url: "https://twitter.com/yourusername", img: x },
+    { name: "Twitter", url: "https://x.com/home", img: x },
     { name: "Instagram", url: "https://www.instagram.com/softweb_elevation/?next=%2F", img: instagram },
   ];
 
