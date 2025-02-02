@@ -13,7 +13,7 @@ const projectsData = [
       title: "Nike Clone Website",
       description:
         "A Front-End Clone for Nike website built with VueJS and Tailwind CSS.",
-      tags: ["VueJS", "Tailwind CSS", "JavaScript"],
+      tags: ["React", "Tailwind CSS", "JavaScript"],
       liveDemo: "https://kingofdead6.github.io/Nike_Clone/",
       sourceCode: "https://github.com/kingofdead6/Nike_Clone?tab=readme-ov-file",
     },
@@ -58,7 +58,7 @@ const projectsData = [
         title: "Quotes Generator Website",
         description:
           "A Front-End Quotes Generator built with React and Tailwind CSS.",
-        tags: ["React", "Tailwind CSS", "JavaScript"],
+        tags: ["VueJS", "Tailwind CSS", "JavaScript"],
         liveDemo: " https://kingofdead6.github.io/Quotes-gen/",
         sourceCode: "https://github.com/kingofdead6/Quotes-gen",
       },
