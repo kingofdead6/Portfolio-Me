@@ -1,7 +1,7 @@
 import Image from '../Assets/LapTop.jpeg';
 
 const Card6 = () => {
-  const work = 'C++ Project';
+  const work = 'Cloning Airbnb website';
 
   return (
     <div className="pl-[50px]">
@@ -16,8 +16,8 @@ const Card6 = () => {
                   md:max-w-sm transition-all duration-300 group-hover:translate-x-[20px]">
           Currently working on : {" "}
           <span className="text-blue-500 neon-glow">
-    {work}
-  </span>
+               {work}
+          </span>
 </div>
 
       </div>
