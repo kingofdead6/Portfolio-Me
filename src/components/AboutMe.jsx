@@ -6,8 +6,11 @@ const AboutMe = () => {
     "React",
     "C",
     "C++",
+    "Java",
     "JavaScript",
     "Tailwind CSS",
+    "Next JS",
+    "Expres",
     "HTML",
     "CSS",
     "Git"
