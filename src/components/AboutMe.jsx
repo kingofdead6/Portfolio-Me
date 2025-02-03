@@ -10,7 +10,7 @@ const AboutMe = () => {
     "JavaScript",
     "Tailwind CSS",
     "Next JS",
-    "Expres",
+    "Express",
     "HTML",
     "CSS",
     "Git"
